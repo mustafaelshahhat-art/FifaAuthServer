@@ -1,3 +1,11 @@
 {
-  "version": 2
+  "builds": [
+    {
+      "src": "out/FifaAuthServer.dll",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "out/FifaAuthServer.dll" }
+  ]
 }
