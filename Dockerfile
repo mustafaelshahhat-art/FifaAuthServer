@@ -1,4 +1,4 @@
-# استخدم بيئة .NET 8 الرسمية
+# استخدم بيئة ASP.NET 8
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 8080
