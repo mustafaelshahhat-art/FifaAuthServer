@@ -2,11 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "out/FifaAuthServer.dll",
-      "use": "@vercel/dotnet"
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "out/FifaAuthServer.dll" }
   ]
 }
