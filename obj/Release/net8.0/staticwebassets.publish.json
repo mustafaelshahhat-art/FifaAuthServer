@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "e5F6kXOALvQXtntLrH3UrIdjNqfQEkNrArCB1xmo1xY=",
+  "Source": "FifaAuthServer",
+  "BasePath": "_content/FifaAuthServer",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
